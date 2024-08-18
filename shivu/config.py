@@ -8,7 +8,7 @@ class Config(object):
     GROUP_ID = -1002043902352
     TOKEN = "7505230606:AAEDisjieqKN4JP1rgwq0ZnXpY2jQ8sVYfU"
     mongo_url = "mongodb+srv://tanjiro1564:tanjiro1564@cluster0.pp5yz4e.mongodb.net/?retryWrites=true&w=majority"
-    PHOTO_URL = ["https://telegra.ph/file/137a87fdf32461815dd68.jpg", "https://telegra.ph/file/9d64f0c5a9c2cccbd71db.jpg"]
+    PHOTO_URL = ["https://telegra.ph/file/9d64f0c5a9c2cccbd71db.jpg"]
     SUPPORT_CHAT = "SOULS_SOCIETYY"
     UPDATE_CHAT = "SOUL_NETWORKS"
     BOT_USERNAME = "makimagrabberXrobot"
