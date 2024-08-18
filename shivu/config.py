@@ -5,11 +5,11 @@ class Config(object):
     OWNER_ID = "1886390680"
     sudo_users = "1886390680"
     GROUP_ID = -1002133191051
-    TOKEN = "6707490163:AAHZzqjm3rbEZsObRiNaT7DMtw_i5WPo_0o"
+    TOKEN = "7505230606:AAEDisjieqKN4JP1rgwq0ZnXpY2jQ8sVYfU"
     mongo_url = "mongodb+srv://tanjiro1564:tanjiro1564@cluster0.pp5yz4e.mongodb.net/?retryWrites=true&w=majority"
-    PHOTO_URL = ["https://telegra.ph/file/b925c3985f0f325e62e17.jpg", "https://telegra.ph/file/4211fb191383d895dab9d.jpg"]
-    SUPPORT_CHAT = "Collect_em_support"
-    UPDATE_CHAT = "Collect_em_support"
+    PHOTO_URL = ["https://telegra.ph/file/137a87fdf32461815dd68.jpg", "https://telegra.ph/file/9d64f0c5a9c2cccbd71db.jpg"]
+    SUPPORT_CHAT = "https://t.me/SOULS_SOCIETYY"
+    UPDATE_CHAT = "https://t.me/SOUL_NETWORKS"
     BOT_USERNAME = "makimagrabberXrobot"
     CHARA_CHANNEL_ID = "-1002133191051"
     api_id = "25064357"
