@@ -4,7 +4,7 @@ from html import escape
 from telegram import InlineKeyboardButton, InlineKeyboardMarkup, Update
 from telegram.ext import CallbackContext, CallbackQueryHandler, CommandHandler
 
-from shivu import application, PHOTO_URL, SUPPORT_CHAT, UPDATE_CHAT, BOT_USERNAME, db, GROUP_ID
+from shivu import application, PHOTO_URL, SUPPORT_CHAT, UPDATE_CHAT, BOT_USERNAME, db, GROUP_ID, OWNER_USERNAME
 from shivu import pm_users as collection 
 
 
@@ -40,7 +40,7 @@ async def start(update: Update, context: CallbackContext) -> None:
         """
         
         keyboard = [
-            [InlineKeyboardButton("MY MASTER", url=f'http://t.me/sung_jinwo4')]
+            [InlineKeyboardButton("MY MASTER", url=f'http://t.me/{OWNER_USERNAME}')]
             [InlineKeyboardButton("ADD ME", url=f'http://t.me/{BOT_USERNAME}?startgroup=new')],
             [InlineKeyboardButton("SUPPORT", url=f'https://t.me/{SUPPORT_CHAT}'),
             InlineKeyboardButton("UPDATES", url=f'https://t.me/{UPDATE_CHAT}')],
@@ -54,7 +54,7 @@ async def start(update: Update, context: CallbackContext) -> None:
     else:
         photo_url = random.choice(PHOTO_URL)
         keyboard = [
-            [InlineKeyboardButton("MY MASTER", url=f'http://t.me/sung_jinwo4')]
+            [InlineKeyboardButton("MY MASTER", url=f'http://t.me/{OWNER_USERNAME}')]
             [InlineKeyboardButton("ADD ME", url=f'http://t.me/{BOT_USERNAME}?startgroup=new')],
             [InlineKeyboardButton("SUPPORT", url=f'https://t.me/{SUPPORT_CHAT}'),
             InlineKeyboardButton("UPDATES", url=f'https://t.me/{UPDATE_CHAT}')],
@@ -98,7 +98,7 @@ async def button(update: Update, context: CallbackContext) -> None:
 
         
         keyboard = [
-            [InlineKeyboardButton("MY MASTER", url=f'http://t.me/sung_jinwo4')]
+            [InlineKeyboardButton("MY MASTER", url=f'http://t.me/{OWNER_USERNAME}')]
             [InlineKeyboardButton("ADD ME", url=f'http://t.me/{BOT_USERNAME}?startgroup=new')],
             [InlineKeyboardButton("SUPPORT", url=f'https://t.me/{SUPPORT_CHAT}'),
             InlineKeyboardButton("UPDATES", url=f'https://t.me/{UPDATE_CHAT}')],
