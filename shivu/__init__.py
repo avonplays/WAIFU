@@ -30,7 +30,7 @@ UPDATE_CHAT = Config.UPDATE_CHAT
 BOT_USERNAME = Config.BOT_USERNAME 
 sudo_users = Config.sudo_users
 OWNER_ID = Config.OWNER_ID 
-OWNER USERNAME = Config.OWNER_USERNAME
+OWNER_USERNAME = Config.OWNER_USERNAME
 
 
 application = Application.builder().token(TOKEN).build()
