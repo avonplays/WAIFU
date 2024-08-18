@@ -6,7 +6,7 @@ class Config(object):
     SUDO_USERS = "1886390680"
     GROUP_ID = -1002043902352
     TOKEN = "7505230606:AAEDisjieqKN4JP1rgwq0ZnXpY2jQ8sVYfU"
-    MONGO_URL = "mongodb+srv://tanjiro1564:tanjiro1564@cluster0.pp5yz4e.mongodb.net/?retryWrites=true&w=majority"
+    mongo_url = "mongodb+srv://tanjiro1564:tanjiro1564@cluster0.pp5yz4e.mongodb.net/?retryWrites=true&w=majority"
     PHOTO_URL = ["https://telegra.ph/file/137a87fdf32461815dd68.jpg", "https://telegra.ph/file/9d64f0c5a9c2cccbd71db.jpg"]
     SUPPORT_CHAT = "https://t.me/SOULS_SOCIETYY"
     UPDATE_CHAT = "https://t.me/SOUL_NETWORKS"
