@@ -12,7 +12,7 @@ class Config(object):
     SUPPORT_CHAT = "SOULS_SOCIETYY"
     UPDATE_CHAT = "SOUL_NETWORKS"
     BOT_USERNAME = "makimagrabberXrobot"
-    CHARA_CHANNEL_ID = "-1002133191051"
+    CHARA_CHANNEL_ID = "-1002043902352"
     api_id = "25064357"
     api_hash = "cda9f1b3f9da4c0c93d1f5c23ccb19e2"
 
