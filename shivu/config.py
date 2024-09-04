@@ -5,12 +5,12 @@ class Config(object):
     OWNER_ID = 1886390680
     OWNER_USERNAME = "sung_jinwo4"
     sudo_users = "1886390680, 5277261395, 5913366114, 7046072561"
-    GROUP_ID = -1002043902352
+    GROUP_ID = -1002216206408
     TOKEN = "7505230606:AAEDisjieqKN4JP1rgwq0ZnXpY2jQ8sVYfU"
     mongo_url = "mongodb+srv://tanjiro1564:tanjiro1564@cluster0.pp5yz4e.mongodb.net/?retryWrites=true&w=majority"
     PHOTO_URL = ["https://telegra.ph/file/9d64f0c5a9c2cccbd71db.jpg"]
-    SUPPORT_CHAT = "SOULS_SOCIETYY"
-    UPDATE_CHAT = "SOUL_NETWORKS"
+    SUPPORT_CHAT = "SUNG_TALKS"
+    UPDATE_CHAT = "SUNG_NETWORKS"
     BOT_USERNAME = "makimagrabberXrobot"
     CHARA_CHANNEL_ID = "-1002208868825"
     api_id = "25064357"
